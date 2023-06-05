@@ -418,6 +418,31 @@ svg {
 }
 
 /*=============== SERVICES ===============*/
+.services__container{
+  row-gap: 2rem;
+  padding-block: 1rem;
+}
+
+.services__card{
+  position: relative;
+  background-color: var(--container-color);
+  border-radius: 1rem;
+  overflow: hidden;
+  border-radius: 1rem;
+  padding: 1.5rem 1.5rem;
+  border: 2px solid var(--container-color);
+  transition: border .6s;
+}
+.services__img{
+  width: 100%;
+  height: 100%;
+}
+
+.services__card:hover{
+  border: 2px solid var(--first-color);
+  transform: scale(1.05);
+}
+
 
 
 /*=============== PROJECTS ===============*/
@@ -465,7 +490,6 @@ svg {
 .projects__subtitle,
 .projects__button{
   color: var(--title-color);
-  /* color: black; */
   font-size: var(--small-font-size);
 }
 
@@ -481,7 +505,6 @@ svg {
 .projects__button{
   display: flex;
   align-items: center;
-  /* color: black; */
   column-gap: .5rem;
   font-weight: var(--font-medium);
 }
@@ -683,9 +706,9 @@ svg {
     order: 1;
   }
   .services__container,
+  .services__container2,
   .projects__container{
     grid-template-columns: repeat(2,352px);
-
   }
 }
 
@@ -768,6 +791,10 @@ svg {
   }
   .services__container{
     grid-template-columns: repeat(3, 352px);
+    padding-block: 2.5rem 4rem;
+  }
+  .services__container2{
+    grid-template-columns: repeat(1, 1fr);
     padding-block: 2.5rem 4rem;
   }
   .services__card{
