@@ -189,7 +189,7 @@ svg {
 }
 
 /* Navigation for mobile devices */
-@media screen and (max-width:950px){
+@media screen and (max-width:900px){
   .nav__menu{
     position: fixed;
     top: 0;
@@ -655,7 +655,7 @@ svg {
   }
 }
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 750px){
   .nav__menu{
     width: 55%;
   }
@@ -690,7 +690,7 @@ svg {
 }
 
 /* For large devices */
-@media screen and (min-width: 950px){
+@media screen and (min-width: 900px){
   .section{
     padding-block: 7rem 2rem;
   }
