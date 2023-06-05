@@ -1,8 +1,4 @@
-// let navLinks = document.querySelectorAll('.nav__link');
 
-// navLinks.forEach(navLink => {
-//   console.log(navLink.href);
-// });
 
 /*=============== SHOW MENU ===============*/
 let navMenu = document.getElementById('nav-menu'),
