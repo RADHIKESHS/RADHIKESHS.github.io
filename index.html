@@ -5,8 +5,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Radhikesh Thakur - Portfolio</title>
-   <!--=============== FAVICON ===============-->
-   <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+   <!-- =============== FAVICON ===============
+   <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon"> -->
    <!--=============== REMIXICONS ===============-->
    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.0.0/fonts/remixicon.css" rel="stylesheet">
    <!--=============== CSS ===============-->
@@ -40,8 +40,8 @@
                  <a href="#contact" class="nav__link nav-link contact">Contact Me</a>
               </li>
               <li class="nav__item">
-                 <a href="https://drive.google.com/file/d/1khkXNm-A6LnXKQPbbKpr2AQ8KAIuOIkO/view?usp=sharing"
-                    class="nav__link nav-link resume">Resume</a>
+                 <a href="assets/img/Radhikesh-Thakur-Resume.pdf"
+                    class="nav__link nav-link resume" id="resume-button-1" download>Resume</a>
               </li>
            </ul>
            <div class="nav__close" id="nav-close">
@@ -74,14 +74,14 @@
                  <a href="#contact" class="button">Let's Talk</a>
               </div>
               <div class="home__social">
-                 <a href="https://github.com/" target="_blank" class="home__social-link">
+                 <a href="https://github.com/RADHIKESHS" id="contact-github" target="_blank" class="home__social-link">
                     <i class="ri-github-fill"></i>
                  </a>
                  <a href="https://www.instagram.com/" target="_blank" class="home__social-link">
-                    <i class="ri-instagram-line"></i>
+                  <i class="ri-mail-line"></i>
                  </a>
-                 <a href="https://www.linkedin.com/" target="_blank" class="home__social-link">
-                    <i class="ri-linkedin-box-line"></i>
+                 <a href="https://www.linkedin.com/in/radhikesh-thakur-b0a6bb24a/" id="contact-linkedin" target="_blank" class="home__social-link">
+                    <i class="ri-mail-line"></i>
                  </a>
               </div>
            </div>
@@ -114,7 +114,7 @@
                     <pattern id="pattern1" patternContentUnits="objectBoundingBox" width="1" height="1">
                        <use href="#imageBlob" transform="matrix(0.00143057 0 0 0.00226984 0.0404062 0)" />
                     </pattern>
-                    <image class="home__img home-img" id="imageBlob" width="640" height="1100" href="assets/img/perfil2.png" />
+                    <image class="home__img home-img" id="imageBlob" width="640" height="1100" src="assets/img/perfil2.png" />
                  </defs>
               </svg>
            </div>
@@ -136,7 +136,7 @@
                  MySQL, and JavaScript.
               </p>
 
-              <a href="#contact" class="button">Contect Me</a>
+              <a href="assets/img/Radhikesh-Thakur-Resume.pdf" id="resume-button-2" class="button" download>Resume</a>
            </div>
            <div class="about__image">
               <svg class="about__bolb" viewBox="0 0 550 592" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -169,7 +169,7 @@
                        <use href="#imageBorder" transform="matrix(0.00143057 0 0 0.00226984 0.0404062 0)" />
                     </pattern>
                     <image class="about__img" id="imageBorder" width="650" height="1150"
-                       href="assets/img/perfil2.png" />
+                       src="assets/img/perfil2.png" />
                  </defs>
               </svg>
            </div>
@@ -178,7 +178,7 @@
 
      <!--==================== SKILLS ====================-->
      <section class="skills section" id="skills">
-        <div class="skills__container container grid">
+        <div class="skills__container container grid skills-card">
            <div class="skills__data">
               <h3 class="section__subtitle">
                  Favorite <span>Skills</span>
@@ -241,7 +241,7 @@
               <img src="assets/img/project-img-2.png" alt="projects image" class="projects__img">
               <div class="projects__modal">
                  <span class="projects__subtitle">Clone</span>
-                 <h2 class="projects__title">Apple.com</h2>
+                 <h2 class="projects__title project-title">Apple.com</h2>
                  <a href="#" class="projects__button">
                     Visit site <i class="ri-external-link-line"></i>
                  </a>
@@ -252,7 +252,7 @@
               <img src="assets/img/project-img-1.png" alt="projects image" class="projects__img">
               <div class="projects__modal">
                  <span class="projects__subtitle">Clone</span>
-                 <h2 class="projects__title">Purple.com</h2>
+                 <h2 class="projects__title project-title">Purple.com</h2>
                  <a href="#" class="projects__button">
                     Visit site <i class="ri-external-link-line"></i>
                  </a>
@@ -263,7 +263,18 @@
               <img src="assets/img/p3.png" alt="projects image" class="projects__img">
               <div class="projects__modal">
                  <span class="projects__subtitle">Application</span>
-                 <h2 class="projects__title">Electricity Bill Management</h2>
+                 <h2 class="projects__title project-title">Electricity Bill Management</h2>
+                 <a href="#" class="projects__button">
+                    GitHub repo <i class="ri-external-link-line"></i>
+                 </a>
+              </div>
+           </article>
+
+           <article class="projects__card">
+              <img src="assets/img/p3.png" alt="projects image" class="projects__img">
+              <div class="projects__modal">
+                 <span class="projects__subtitle">Application</span>
+                 <h2 class="projects__title project-title">Electricity Bill Management</h2>
                  <a href="#" class="projects__button">
                     GitHub repo <i class="ri-external-link-line"></i>
                  </a>

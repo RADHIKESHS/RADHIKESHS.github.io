@@ -774,7 +774,7 @@ svg {
     padding: 3.5rem 2rem;
   }
   .projects__container{
-    grid-template-columns: repeat(3, 350px);
+    grid-template-columns: repeat(2, 550px);
     row-gap: 3rem;
     padding-block: 2.5rem 4rem;
   }
