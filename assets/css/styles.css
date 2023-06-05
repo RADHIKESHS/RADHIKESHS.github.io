@@ -189,7 +189,7 @@ svg {
 }
 
 /* Navigation for mobile devices */
-@media screen and (max-width:1023px){
+@media screen and (max-width:950px){
   .nav__menu{
     position: fixed;
     top: 0;
@@ -690,7 +690,7 @@ svg {
 }
 
 /* For large devices */
-@media screen and (min-width: 900px){
+@media screen and (min-width: 950px){
   .section{
     padding-block: 7rem 2rem;
   }
@@ -717,7 +717,7 @@ svg {
   }
 }
 
-@media screen and (min-width: 999px){
+@media screen and (min-width: 1023px){
   .container{
     margin-inline: auto;
   }
