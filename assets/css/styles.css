@@ -690,7 +690,7 @@ svg {
 }
 
 /* For large devices */
-@media screen and (min-width: 1023px){
+@media screen and (min-width: 900px){
   .section{
     padding-block: 7rem 2rem;
   }
@@ -717,7 +717,7 @@ svg {
   }
 }
 
-/* @media screen and (min-width: 1152px){
+@media screen and (min-width: 999px){
   .container{
     margin-inline: auto;
   }
@@ -819,4 +819,4 @@ svg {
   .scrollup{
     right: 3rem;
   }
-} */
+}
