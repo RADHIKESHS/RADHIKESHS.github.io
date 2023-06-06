@@ -468,15 +468,17 @@ svg {
   height: 100%;
 }
 
-.projects__modal{
+.projects__modal {
   position: absolute;
   left: 0;
   bottom: -100%;
   width: 100%;
   height: 100%;
-  background: linear-gradient(180deg,
-              hsla(0, 0%, 0%, 0)0%,
-              hsla(var(--hue), 70%, 40% .8) 120%);  
+  background: linear-gradient(
+    180deg,
+    hsla(0, 0%, 0%, 0) 0%,
+    hsla(var(--hue), 70%, 40%, .8) 120%
+  );
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
   border-radius: 1rem;
@@ -486,6 +488,7 @@ svg {
   justify-content: center;
   transition: bottom .4s;
 }
+
 
 .projects__subtitle,
 .projects__button{
